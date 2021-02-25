@@ -2,6 +2,8 @@
 
 ## About the data
 
+The csv data should be placed under data/ directory.
+
 ```
 ├── data
 │   ├── comp_predict_table.csv
