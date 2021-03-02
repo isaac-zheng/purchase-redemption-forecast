@@ -71,7 +71,7 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
   $ cd github_guide/
   ```
   
-- Create your branch with your name or the function you will implement
+- Create your branch with your name or the function you will implement. Skip this step if you plan to commit to main branch.
 
   ```bash
   $ git checkout -b your_branch_name
