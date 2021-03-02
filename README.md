@@ -65,9 +65,12 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
   
   ```bash
   $ git clone git@github.com:MinesJA/github_guide.git
-$ cd github_guide/
+```
+  
+  ```bash
+  $ cd github_guide/
   ```
-
+  
 - Create your branch with your name or the function you will implement
 
   ```bash
