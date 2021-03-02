@@ -65,7 +65,7 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
   
   ```bash
   $ git clone git@github.com:MinesJA/github_guide.git
-```
+  ```
   
   ```bash
   $ cd github_guide/
