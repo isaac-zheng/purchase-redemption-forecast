@@ -97,4 +97,4 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
   $ git push
   ```
 
-- More useful commands can be checked [hear]()
+- More useful commands can be checked [hear](https://github.com/xiaodianzheng/purchase-redemption-forecast/blob/main/Git-Cheatsheet.pdf)
