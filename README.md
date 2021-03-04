@@ -64,11 +64,11 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
 - Clone this project and you can star it in order to find it easily in "Your stars"
   
   ```bash
-  $ git clone git@github.com:MinesJA/github_guide.git
+  $ git clone git@github.com:xiaodianzheng/purchase-redemption-forecast.git
   ```
   
   ```bash
-  $ cd github_guide/
+  $ cd purchase-redemption-forecast/
   ```
   
 - Create your branch with your name or the function you will implement. Skip this step if you plan to commit to main branch.
