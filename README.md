@@ -46,7 +46,7 @@ The csv data should be placed under data/ directory.
      - Press enter twice
 
      - ```bash
-       cat .ssh/id_rsa.pub
+       cat ~/.ssh/id_rsa.pub
        ```
 
      - Paste the SSH key
