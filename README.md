@@ -46,7 +46,7 @@ The csv data should be placed under data/ directory.
      - Press enter twice
 
      - ```bash
-       cat .ssh/id_rsa.pub
+       cat ~/.ssh/id_rsa.pub
        ```
 
      - Paste the SSH key
@@ -64,11 +64,11 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
 - Clone this project and you can star it in order to find it easily in "Your stars"
   
   ```bash
-  $ git clone git@github.com:MinesJA/github_guide.git
+  $ git clone git@github.com:xiaodianzheng/purchase-redemption-forecast.git
   ```
   
   ```bash
-  $ cd github_guide/
+  $ cd purchase-redemption-forecast/
   ```
   
 - Create your branch with your name or the function you will implement. Skip this step if you plan to commit to main branch.
@@ -97,4 +97,4 @@ Reference: https://medium.com/@jonathanmines/the-ultimate-github-collaboration-g
   $ git push
   ```
 
-- More useful commands can be checked [hear](https://github.com/xiaodianzheng/purchase-redemption-forecast/blob/main/Git-Cheatsheet.pdf)
+- More useful commands can be checked [here](https://github.com/xiaodianzheng/purchase-redemption-forecast/blob/main/Git-Cheatsheet.pdf)
