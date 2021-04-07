@@ -1,5 +1,9 @@
 data/*.csv
-
+RNN/*.csv
+RNN/__pycache__/*
+RNN/.idea/
+RNN/KMlib/__pycache__/*
+RNN/history/*
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 

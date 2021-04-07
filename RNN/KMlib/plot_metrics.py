@@ -15,9 +15,14 @@ def plot_test(purchase_pred, purchase_true, redeem_pred, redeem_true):
 
 
 def plot_loss(p_history, r_history):
-    plt.plot(p_history.history['loss'], label='First Train')
-    plt.plot(p_history.history['val_loss'], label='First Valid')
-    plt.plot(r_history.history['loss'], label='Second Train')
-    plt.plot(r_history.history['val_loss'], label='Second Valid')
-    plt.legend()
-    plt.show()
+    try:
+        plt.figure(figsize=(12, 5))
+        plt.plot(p_history.history['loss'][5:], label='First Train')
+        plt.plot(p_history.history['val_loss'][5:], label='First Valid')
+        plt.plot(r_history.history['loss'][5:], label='Second Train')
+        plt.plot(r_history.history['val_loss'][5:], label='Second Valid')
+        plt.legend()
+        plt.title('loss after 5 epochs')
+        plt.show()
+    except:
+        print('Please increase Epochs')

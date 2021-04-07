@@ -1,5 +1,9 @@
-from datetime import datetime
 import pandas as pd
+import numpy as np
+from datetime import datetime
+from sklearn.preprocessing import MinMaxScaler
+
+
 def train_scaler(raw_x_train, raw_y_train):
     x_scaler = MinMaxScaler(feature_range=(0, 1))
     y_scaler = MinMaxScaler(feature_range=(0, 1))
@@ -41,12 +45,13 @@ def predict(tp, tr, p_valid, t_valid, y_scaler):
     redeem_pred = y_test[:, 1]
     return purchase_pred, redeem_pred
 
-def get_submit_data(purchase_pred,redeem_pred,name = 0):
+
+def get_submit_data(purchase_pred, redeem_pred, name=0):
     if not name:
         name = str(datetime.now().date())
-    df = pd.DataFrame([[x for x in range(20140901,20140931)],purchase_pred,redeem_pred]).T
-    df[0]= df[0].astype('int')
-    df.loc[:,1:2] = df.loc[:,1:2].apply(lambda x: round(x,2))
-    df.to_csv('tc_comp_predict_table.csv',index = False,header = None)
-#     df.to_csv(f'history/{name}.csv',index = False,header = None)
+    df = pd.DataFrame([[x for x in range(20140901, 20140931)], purchase_pred, redeem_pred]).T
+    df[0] = df[0].astype('int')
+    df.loc[:, 1:2] = df.loc[:, 1:2].apply(lambda x: round(x, 2))
+    df.to_csv('tc_comp_predict_table.csv', index=False, header=None)
+    #     df.to_csv(f'history/{name}.csv',index = False,header = None)
     return df
